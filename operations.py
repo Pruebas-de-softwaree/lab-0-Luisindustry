@@ -29,10 +29,9 @@ if __name__ == "__main__":
 
     print("start test")
     
-    print("No debería de imprimir las letras, porque son strings  ")
-
-    print(add(-9,-7))
-    print(add('l','t'))
+    print("No debería de imprimir las letras y no debería de sumarlas ")
+    print(subtract(3,9))
+    print(add('O','P'))
     
 
 
