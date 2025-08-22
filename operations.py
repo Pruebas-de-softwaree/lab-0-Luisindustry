@@ -28,6 +28,8 @@ def maximum(list):
 if __name__ == "__main__":
 
     print("start test")
+    print()
+    print(divide(9,3));
 
 
 
