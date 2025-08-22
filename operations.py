@@ -28,8 +28,13 @@ def maximum(list):
 if __name__ == "__main__":
 
     print("start test")
-    print()
-    print(divide(9,3));
+    
+    print("No debería de imprimir las letras, porque son strings  ")
+
+    print(add(-9,-7))
+    print(add('l','t'))
+    
+
 
 
 
