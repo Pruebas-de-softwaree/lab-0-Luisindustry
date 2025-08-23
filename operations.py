@@ -12,7 +12,7 @@ def divide(a, b):
     return a / b  
 
 def power(a, b):
-    return a ^ b  
+    return a ** b  
 
 def square_root(x):
     import math
@@ -29,9 +29,9 @@ if __name__ == "__main__":
 
     print("start test")
     
-    print(" No debería imprimir letras y marca error ")
-    print(divide(9,3))
-    print(divide('I2','Q'))
+    print(" Error en la formula, '^' erroneo, re corrigió con '**'  ")
+    print(power(1000,10))
+    print(power('Abc','300'))
 
     print("end test")
 
