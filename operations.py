@@ -29,13 +29,9 @@ if __name__ == "__main__":
 
     print("start test")
     
-    print(" ")
-    print(subtract(3,9))
-    print(subtract('O','P'))
-    
-
-
-
+    print(" No debería imprimir letras ")
+    print(multiply(-9,8))
+    print(multiply('P','T'))
 
     print("end test")
 
