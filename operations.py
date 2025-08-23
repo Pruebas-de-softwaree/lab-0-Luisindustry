@@ -29,9 +29,9 @@ if __name__ == "__main__":
 
     print("start test")
     
-    print(" Solo muestra error al colocar numeros no enteros ")
-    print(square_root(45))
-    print(square_root('th2'))
+    print("  ")
+    print(average([5,20,8]))
+    print(average(['x',3,9]))
 
     print("end test")
 
