@@ -29,9 +29,9 @@ if __name__ == "__main__":
 
     print("start test")
     
-    print(" Error en la formula, '^' erroneo, re corrigió con '**'  ")
-    print(power(1000,10))
-    print(power('Abc','300'))
+    print(" Solo muestra error al colocar numeros no enteros ")
+    print(square_root(45))
+    print(square_root('th2'))
 
     print("end test")
 
