@@ -22,16 +22,16 @@ def average(list):
     return sum(list) / len(list)
 
 def maximum(list):
-    return min(list) 
+    return max(list) 
 
 
 if __name__ == "__main__":
 
     print("start test")
     
-    print("  ")
-    print(average([5,20,8]))
-    print(average(['x',3,9]))
+    print(" Se modificó la formula de 'min' a 'Max', corrigiendo los errores ")
+    print(maximum([9,7,5]))
+    print(maximum(['u','4','6']))
 
     print("end test")
 
